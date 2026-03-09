@@ -315,7 +315,7 @@
         color: #f9004d;
     }
 
-   /* services section */
+    /* services section */
     .services_section {
         padding: 100px 0;
         text-align: center;
@@ -367,4 +367,71 @@
         color: #ADADAD;
         font-size: 14px;
         line-height: 1.6;
+    }
+
+    /* resume section*/
+    .resume_section {
+        padding: 100px 0;
+    }
+
+    .resume_header {
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+    .resume_grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
+    }
+
+    .col_title {
+        color: white;
+        font-size: 24px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+
+    .resume_item {
+        position: relative;
+        background: #1a1a1a;
+        padding: 30px;
+        border-radius: 15px;
+        margin-bottom: 20px;
+        border: 1px solid #222;
+    }
+
+    .resume_item.small {
+        padding: 15px 30px;
+    }
+
+    .item_content h4 {
+        color: white;
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .item_meta {
+        display: flex;
+        justify-content: space-between;
+        color: #ADADAD;
+        font-size: 14px;
+        margin-bottom: 15px;
+        font-style: italic;
+    }
+
+    .item_meta .pink {
+        color: #f9004d;
+    }
+
+    .item_content p {
+        color: #888;
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .resume_item:hover {
+        border-color: #f9004d;
+        transition: 0.3s;
     }
